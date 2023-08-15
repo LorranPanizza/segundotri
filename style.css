@@ -16,6 +16,24 @@ input {
 
 button {
   width: 100px;
+  /* Estilos gerais */
+
+/* Estilos para dispositivos móveis (ex: iPhone 12) */
+@media screen and (max-width: 390px) {
+  /* Aplique aqui os ajustes necessários para dispositivos móveis */
+  .console {
+    /* Exemplo de ajuste para dispositivos móveis */
+    margin: 10px;
+  }
+  
+  .contact {
+    /* Exemplo de ajuste para dispositivos móveis */
+    padding: 10px;
+  }
+  
+  /* Outros ajustes de layout e estilos para dispositivos móveis */
+}
+
   height: 20px;
   margin-top: 10px;
 }
